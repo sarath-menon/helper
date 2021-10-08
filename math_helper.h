@@ -4,7 +4,8 @@
 namespace math_helper {
 
 // Constrains input value to a range
-constexpr static float limit(float val, const float max, const float min) {
+inline constexpr static float limit(float val, const float max,
+                                    const float min) {
   if (val > max)
     val = max;
   else if (val < min)
