@@ -1,5 +1,5 @@
 #pragma once
-#include <math.h>
+#include <cmath>
 
 namespace math_helper {
 
